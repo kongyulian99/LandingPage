@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #1995ad;
+  --secondary-color: #063852;
+  --third-color:#f0810f;
+  --fourth-color: #e6df44;
+
+  --transition-time: 0.3s;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+
